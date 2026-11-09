@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research · BLAST</title>
+<meta name="description" content="BLAST: Biochemistry Laboratory for Advanced Screening and Therapeutics. Drug Discovery Lab, University of Bath.">
+<link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+<header><div class="wrap">
+<a class="site" href="index.html"><b>B</b>iochemistry <b>L</b>aboratory for <b>A</b>dvanced <b>S</b>creening and <b>T</b>herapeutics</a>
+<nav><a href="index.html">Home</a><a href="research.html" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="team.html">Team</a><a href="join.html">Join us</a><a href="contact.html">Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+
+<h1>Research</h1>
+<p class="lead">Our programme runs as interlinked early-stage drug discovery workstreams, built around a shared screening pipeline within the Bath Centre for Drug Discovery.</p>
+
+<h2 id="borosins">1. Borosin methyltransferases for peptide drugs</h2>
+<figure class="fig right">
+<img src="images/borosins.png" alt="Structure of a borosin methyltransferase with bound substrate and peptide">
+<figcaption>Structure of a borosin <i>N</i>-methyltransferase with its methylated substrate. Backbone methylations shown as spheres. Miller et al. PDB:7LTE</figcaption>
+</figure>
+<p>Peptides are exceptional drugs when they work, think insulin, Ozempic, Cyclosporin A or enlicitide. However, such examples are few and far between. Our lab aims to change that by using some amazing microbial enzymes to give peptides a better chance to succeed as therapeutics.</p>
+<p>Bacterial and fungal borosin <i>N</i>-methyltransferases methylate peptide backbones, resulting in protease-resistant, membrane-permeable natural products. We are developing these enzymes as a biocatalytic toolbox, to install backbone methylation on designed peptides and improve their medicinal chemistry properties.</p>
+
+<h2 id="phosphatases">2. Phosphatases as novel drug targets</h2>
+<figure class="fig left">
+<img src="images/phosphatase_inhibitors.png" alt="Phactr1/PP1 phosphatase bound to inhibitory peptides">
+<figcaption>PP1&ndash;Phactr1 holoenzyme fusion with peptide inhibitors.</figcaption>
+</figure>
+<p>Ser/Thr phosphatases are as important to human biology as kinases, yet they have been considered &ldquo;undruggable&rdquo; due to difficulties in achieving specificity and affinity. A catalytic subunit such as PP1 forms complexes with one or more regulatory proteins to achieve time-, localisation- and activation-dependent dephosphorylation.</p>
+<p>Building on work at the Francis Crick Institute on PP1 and its Phactr and Neurabin regulators (linked to synaptic development, and hyperactivated in epilepsy and coronary artery disease), we use a fusion-phosphatase design that makes these complexes amenable to high-throughput compound screening and structural analysis. Initial experiments using rationally designed peptides established PP1&ndash;Phactr1 as a viable drug target. Currently, we are screening small-molecule and peptide libraries to find cell-permeable inhibitors and exploring new modalities such as PhosTACs and covalent targeting.</p>
+<p>Mutations in the neuronal phosphatase regulator Phactr1 cause West syndrome, a severe form of childhood epilepsy, and act by producing a dominant, hyperactive phosphatase. We are developing a novel Phactr1-based zebrafish model of epilepsy to study the molecular mechanisms of the disease and to test therapeutic approaches.</p>
+
+<h2 id="screening">3. Screening platforms</h2>
+<figure class="fig right">
+<img src="images/phenotypic-screen.png" alt="Compound libraries and disease models combined in phenotypic screening">
+<figcaption>Phenotypic screening of compound libraries in disease models.</figcaption>
+</figure>
+<h3>Phenotypic high-content screening</h3>
+<p>Quantitative microscopy and machine-learning image analysis let us discover bioactive compounds and infer their modes of action in disease-relevant cell models. We combine established image-analysis tools with custom models to identify hits, quantify activity, filter generic toxicity and propose mechanisms. We are starting with cell painting and extending to 3D organoids, adipocytes and neurons, and to direct-to-biology workflows.</p>
+<h3 id="chemoproteomics">Photoaffinity chemoproteomics</h3>
+<p>Cell-based photoaffinity chemoproteomics identifies the targets and binding sites of compounds. It serves both as the target-identification engine for screening hits and as a standalone resource for mapping proteome-wide ligandability.</p>
+
+</div></main>
+<footer><div class="wrap">
+BLAST · Department of Life Sciences and Department of Chemistry, University of Bath, Claverton Down, Bath BA2 7AY, UK<br>
+&copy; 2026 Roman Fedoryshchak
+</div></footer>
+<script>
+(function(){function fit(){var w=document.querySelector("header .wrap");if(!w)return;
+["header .site","header nav"].forEach(function(q){var e=document.querySelector(q),n=q==="header nav";e.style.fontSize="10px";if(n)e.style.width="max-content";
+var k=w.clientWidth/e.getBoundingClientRect().width*10;if(n){k*=0.72;e.style.width="100%";}e.style.fontSize=Math.max(13,Math.min(k,60))+"px";});}
+fit();window.addEventListener("resize",fit);if(document.fonts)document.fonts.ready.then(fit);})();
+</script>
+</body>
+</html>
