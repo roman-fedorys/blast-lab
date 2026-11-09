@@ -45,3 +45,4 @@ header nav{display:flex;justify-content:space-between;width:100%;margin-top:.7re
 main h2{clear:both}
 @media(max-width:700px){.fig{float:none!important;width:100%;margin:1rem 0}}
 main .wrap::after{content:"";display:block;clear:both}
+@media(max-width:700px){.site .sub{display:block}}
